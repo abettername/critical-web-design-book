@@ -12,10 +12,10 @@ img {
 }
 
 .cssBackgroundImg {
-  background-image: url(../img/cat-01.jpg);
+  background-image: url(../img/logo-original.png);
 }
 .cssBackgroundImg:hover {
-  background-image: url(../img/cat-02.jpg);
+  background-image: url(../img/logoF.jpg);
   cursor:crosshair;
 }
 
