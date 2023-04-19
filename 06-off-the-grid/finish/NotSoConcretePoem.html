@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Oooh+Baby&family=Rubik+Pixels&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+
+h1.white-text1 {
+  background-color: none;
+  color: white;
+  font: bold 50px Sans-Serif;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 150px;
+  left:30px;
+  transform: rotate(-90deg); 
+  text-align: left;
+  z-index:1;
+    }
+</style><style>
+h1.white-text2 {
+  background-color: none;
+  font: bold 30px Sans-Serif;
+  letter-spacing: 2px;
+  color: white;
+
+  transform: rotate(-20deg); 
+ z-index:1;
+  
+    }
+</style>
+<p><h1 class="white-text1"> Obsessions </p> </h1> 
+<p><h1 class="white-text2"   style="position: absolute; top: 100px; left: 200px"> make </p> </h1>
+<p><h1 class="white-text2"  style="position: absolute; top: 140px; left: 200px"> my life </p> </h1>
+<p><h1 class="white-text2" style="position: absolute; top: 180px; left: 200px; font-family: Rubik Pixels, cursive"> worse </p> </h1>
+<p><h1 class="white-text2" style="position: absolute; top: 200px; left: 200px"> and my work </p> </h1>
+<p><h1 class="white-text2" style="position: absolute; top: 260px; left: 200px"> better </p> </h1>
+
+
+
+<div id ="canvas-container" style=margin:10px 10px; position: absolute; top:0; left:0; z-index: 2 "></div>
+<script>
+v=document.createElement ('canvas')
+v.width=6000
+v.height=6000 
+v.onclick=()=>{
+  c.clearRect(0,0,v.width,v.height)
+  c.closePath()
+  c.beginPath()
+  clearTimeout(T)
+F()
+}
+document.querySelector ('#canvas-container').appendChild(v);
+
+F=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+C=[1,-.5,-.5]
+S=[0,.87,-.87]
+P=[[X=300,Y=200],[X,Y],[X,Y]]
+R=()=>{d=parseInt(Math.random()*3)
+P=P.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3*C[I=(d+i)%3],Y=y+3*S[I]),[X,Y]))
+c.stroke()
+setTimeout(R,.000000001)
+}
+R()}
+F()
+</script>
+
+<script>
+H=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+V=[1,-.5,-.5]
+B=[0,.87,-.87]
+N=[[X=150,Y=100],[X,Y],[X,Y]]
+M=()=>{d=parseInt(Math.random()*3)
+N=N.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3*V[I=(d+i)%3],Y=y+3*B[I]),[X,Y]))
+c.stroke()
+setTimeout(M,.000000001)
+}
+M()}
+H()
+</script>
+
+<script>
+H2=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+V2=[1,-.5,-.5]
+B2=[0,.87,-.87]
+N2=[[X=250,Y=150],[X,Y],[X,Y]]
+M2=()=>{d=parseInt(Math.random()*3)
+N2=N2.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3*V2[I=(d+i)%3],Y=y+3*B2[I]),[X,Y]))
+c.stroke()
+setTimeout(M2,.000000001)
+}
+M2()}
+H2()
+</script>
+
+<script>
+H3=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+V3=[1,-.5,-.5]
+B3=[0,.87,-.87]
+N3=[[X=300,Y=100],[X,Y],[X,Y]]
+M3=()=>{d=parseInt(Math.random()*3)
+N3=N3.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3*V3[I=(d+i)%3],Y=y+3*B3[I]),[X,Y]))
+c.stroke()
+setTimeout(M3,.000000001)
+}
+M3()}
+H3()
+</script>
+
+<script>
+H4=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+V4=[1,-.5,-.5]
+B4=[0,.87,-.87]
+N4=[[X=50,Y=200],[X,Y],[X,Y]]
+M4=()=>{d=parseInt(Math.random()*3)
+N4=N4.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3.5*V4[I=(d+i)%3],Y=y+3.5*B4[I]),[X,Y]))
+c.stroke()
+setTimeout(M4,.000000001)
+}
+M4()}
+H4()
+</script>
+
+
+<script>
+H5=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+V5=[1,-.5,-.5]
+B5=[0,.87,-.87]
+N5=[[X=130,Y=300],[X,Y],[X,Y]]
+M5=()=>{d=parseInt(Math.random()*3)
+N5=N5.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3.5*V5[I=(d+i)%3],Y=y+3.5*B5[I]),[X,Y]))
+c.stroke()
+setTimeout(M5,.000000001)
+}
+M5()}
+H5()
+</script>
+
+
+<script>
+H6=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+V6=[1,-.5,-.5]
+B6=[0,.87,-.87]
+N6=[[X=250,Y=235],[X,Y],[X,Y]]
+M6=()=>{d=parseInt(Math.random()*3)
+N6=N6.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3.5*V6[I=(d+i)%3],Y=y+3.5*B6[I]),[X,Y]))
+c.stroke()
+setTimeout(M6,.000000001)
+}
+M6()}
+H6()
+</script>
+
+<script>
+F7=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+C7=[1,-.5,-.5]
+S7=[0,.87,-.87]
+P7=[[X=100,Y=200],[X,Y],[X,Y]]
+R7=()=>{d=parseInt(Math.random()*3)
+P7=P7.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3*C7[I=(d+i)%3],Y=y+3*S7[I]),[X,Y]))
+c.stroke()
+setTimeout(R7,.000000001)
+}
+R7()}
+F7()
+</script>
+
+
+<script>
+F8=()=>{
+c=v.getContext('2d')
+c.lineWidth=0.3
+C8=[1,-.5,-.5]
+S8=[0,.87,-.87]
+P8=[[X=180,Y=140],[X,Y],[X,Y]]
+R8=()=>{d=parseInt(Math.random()*3)
+P8=P8.map (([x,y],i)=>(c.moveTo(x,y),c.lineTo(X=x+3*C8[I=(d+i)%3],Y=y+3*S8[I]),[X,Y]))
+c.stroke()
+setTimeout(R8,.000000001)
+}
+R8()}
+F8()
+</script>
+
+</body>
+</html>
